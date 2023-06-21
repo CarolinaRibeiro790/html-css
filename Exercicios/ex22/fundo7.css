@@ -1,8 +1,15 @@
 #container{
-    height: 500x;
+    position: relative;
+    height: 96vh;
     background-color: aqua;
+    padding: 10px;
 }
 #conteudo{
-    height: 200x;
+    position: absolute;
+    height: 200px;
+    width: 400px;
     background-color: purple;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
